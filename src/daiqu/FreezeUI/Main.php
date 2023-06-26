@@ -32,7 +32,7 @@ class Main extends PluginBase
         $this->form = new Form();
 
         if(!class_exists(FormAPI::class)){
-            $this->getLogger()->error("Libraries FormAPI not found, Please download this plugi..");
+            $this->getLogger()->error("Libraries FormAPI not found, Please download this plugin..");
             $this->getServer()->getPluginManager()->disablePlugin($this);
         }
     }
