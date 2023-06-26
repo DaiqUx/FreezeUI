@@ -1,0 +1,10 @@
+name: FreezeUI
+main: daiqu\FreezeUI\Main
+api: 5.0.0
+version: 1.0.0
+author: daiqu
+
+permissions:
+  freezeui.use:
+    description: Permission for FreezeUI Command
+    default: op
